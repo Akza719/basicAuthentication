@@ -11,7 +11,7 @@ namespace UILayer.Data.ApiServices
 {
     public class AuthApi
     {
-        public static void GetProduct()
+        public static void Get()
         {
             ResponseModel<string> _responseModel = null;
             using (HttpClient httpClient = new HttpClient())
